@@ -209,3 +209,160 @@
 .footer-section h4 {
     color: #ffffff !important;
 }
+
+@media (max-width:768px){
+
+.footer{
+  margin-top:40px;
+}
+
+
+.footer .container{
+  padding:40px 20px 25px;
+}
+
+
+.footer-content{
+  display:flex;
+  flex-direction:column;
+  gap:35px;
+}
+
+
+.footer-section{
+  width:100%;
+}
+
+
+.footer-section h3{
+  font-size:1.8rem;
+}
+
+
+.footer-section h4{
+  font-size:1.5rem;
+}
+
+
+.footer-section p{
+  font-size:1.05rem;
+}
+
+
+.footer-section ul li{
+  margin-bottom:18px;
+}
+
+
+.footer-section ul li a{
+  font-size:1.1rem;
+}
+
+
+.contact-item{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  margin-bottom:18px;
+}
+
+
+.contact-icon{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#3b82f6,#a855f7);
+  color:white;
+  font-size:18px;
+}
+
+
+.contact-item p{
+  margin:0;
+}
+
+
+.footer-bottom{
+  margin-top:25px;
+  padding-top:25px;
+  text-align:center;
+}
+
+
+.footer-bottom p{
+  text-align:center;
+  line-height:1.7;
+}
+
+}
+
+@media (max-width:768px){
+
+  .footer-bottom{
+    width:100%;
+    display:block;
+    clear:both;
+    margin-top:40px;
+    padding-top:25px;
+    border-top:1px solid rgba(255,255,255,0.15);
+    text-align:center;
+  }
+
+  .footer-bottom p{
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    white-space:normal;
+  }
+
+}
+
+@media (max-width:768px){
+
+.footer-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-section{
+    width:100%;
+}
+
+.footer-bottom{
+    width:100%;
+    text-align:center;
+    margin-top:40px;
+    padding-top:25px;
+    border-top:1px solid rgba(255,255,255,0.15);
+}
+
+.footer-bottom p{
+    text-align:center;
+    width:100%;
+}
+
+}
+.footer-bottom{
+    width:100%;
+    text-align:center;
+}
+
+@media(max-width:768px){
+
+.footer-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-bottom{
+    width:100%;
+    display:block;
+    text-align:center;
+    margin-top:30px;
+}
+
+}

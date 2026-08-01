@@ -346,3 +346,214 @@
 .logout-btn:hover {
   background: #dc2626;
 }
+
+@media (max-width: 640px) {
+
+  .header {
+    padding: 10px 15px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-text {
+    font-size: 1.2rem;
+    max-width: 120px;
+    line-height: 1.2;
+  }
+
+  .header-actions {
+    gap: 8px;
+  }
+
+  .login-btn,
+  .logout-btn {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  .user-name {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+
+  .nav {
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    right: 15px;
+    width: auto;
+
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 20px;
+
+    z-index: 999;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .header{
+    margin:10px;
+    border-radius:20px;
+  }
+
+  .header .container{
+    height:75px;
+    padding:0 12px;
+    gap:10px;
+  }
+
+
+  .logo{
+    flex:1;
+    min-width:0;
+  }
+
+
+  .logo-text{
+    font-size:1.15rem;
+    line-height:1.1;
+    max-width:100px;
+  }
+
+
+  .logo-icon{
+    display:none;
+  }
+
+
+  .header-actions{
+    gap:8px;
+    flex-shrink:0;
+  }
+
+
+  .login-btn,
+  .logout-btn{
+    padding:8px 14px;
+    font-size:0.85rem;
+  }
+
+
+  .mobile-menu-btn{
+    display:flex;
+    flex-shrink:0;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 40px 20px 25px;
+  }
+
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+
+  .footer-section {
+    width: 100%;
+  }
+
+
+  .footer-logo {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+
+  .footer-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 20px;
+    max-width: 320px;
+  }
+
+
+  /* Quick Links */
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .footer-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+  }
+
+
+  .footer-divider {
+    width:100%;
+    height:1px;
+    background:rgba(255,255,255,0.15);
+    margin:10px 0;
+  }
+
+
+  /* Contact */
+
+  .contact-item {
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:18px;
+  }
+
+
+  .contact-icon {
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.2rem;
+    background:linear-gradient(135deg,#2563eb,#9333ea);
+    color:white;
+  }
+
+
+  .contact-item p {
+    margin:0;
+    font-size:1.05rem;
+  }
+
+
+  /* Copyright */
+
+  .footer-bottom {
+    width:100%;
+    text-align:center;
+    padding-top:25px;
+    margin-top:10px;
+    border-top:1px solid rgba(255,255,255,0.15);
+  }
+
+
+  .footer-bottom p {
+    text-align:center;
+    line-height:1.7;
+    font-size:1rem;
+    margin:0;
+  }
+
+}

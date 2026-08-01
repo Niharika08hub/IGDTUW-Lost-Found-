@@ -423,3 +423,89 @@ label {
 .delete-btn:hover{
     background:#dc2626;
 }
+
+@media(max-width:640px){
+
+.form-container,
+.report-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+}
+
+}
+
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
+
+  .report-item {
+    padding: 1rem 0;
+  }
+
+
+  .report-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+
+  .report-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+
+  .report-description {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+
+  /* Main layout fix */
+  .report-item > div {
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+
+  .form-section,
+  .report-form-container {
+    width: 90%;
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+  }
+
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .radio-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+  .item-actions {
+    flex-direction: column;
+  }
+
+}

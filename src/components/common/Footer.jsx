@@ -26,12 +26,24 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="footer-section">
-            <h4>Contact Info</h4>
-            <p>📧 deansw@igdtuw.ac.in</p>
-            <p>📞 011-23900221</p>
-            <p>📍Examination Block</p>
-          </div>
+        <div className="footer-section">
+  <h4>Contact Info</h4>
+
+  <div className="contact-item">
+    <span className="contact-icon">✉</span>
+    <p>deansw@igdtuw.ac.in</p>
+  </div>
+
+  <div className="contact-item">
+    <span className="contact-icon">☎</span>
+    <p>011-23900221</p>
+  </div>
+
+  <div className="contact-item">
+    <span className="contact-icon">📍</span>
+    <p>Examination Block</p>
+  </div>
+</div>
 
           <div className="footer-section">
             <h4>Office Hours</h4>
@@ -40,10 +52,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="footer-bottom">
-          <p>&copy; 2026 IGDTUW Lost & Found. All rights reserved.</p>
-        </div>
+        
       </div>
+      <div className="footer-bottom">
+  <p>
+    © 2026 IGDTUW Lost & Found.
+    <br />
+    All rights reserved.
+  </p>
+</div>
     </footer>
   );
 };
