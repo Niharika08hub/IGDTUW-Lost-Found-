@@ -1,12 +1,103 @@
-# React + Vite
+# IGDTUW Campus Lost & Found Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for reporting, searching, and managing lost and found items within the IGDTUW campus. The application provides secure Google Authentication, cloud-based data storage using Firebase Firestore, and owner-based access control for managing reported items.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Google Authentication (Firebase)
+- Report Lost & Found Items
+- View All Reported Items
+- Search Items
+- Filter by Category, Type, and Status
+- Edit Reported Items
+- Delete Reported Items
+- Mark Items as Claimed
+- Owner-based Edit/Delete Access
+- Cloud Firestore Database
+- Responsive Design
+- Dark/Light Theme
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend**
+- React.js
+- React Router DOM
+- CSS3
+- Vite
+
+**Backend & Database**
+- Firebase Firestore
+- Firebase Authentication
+
+**Tools**
+- Git
+- GitHub
+- Vercel
+
+## Key Functionalities
+
+- Secure Google Sign-In
+- Owner-based authorization for Edit/Delete
+- Cloud Firestore integration
+- Item claim management
+- Responsive interface
+- 
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/IGDTUW-Lost-Found.git
+```
+
+Navigate to the project directory
+
+```bash
+cd IGDTUW-Lost-Found
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+## Firebase Setup
+
+Enable the following services in Firebase:
+
+- Authentication (Google Sign-In)
+- Cloud Firestore
+
+Configure your Firebase project in:
+
+```
+src/firebase/firebase.js
+```
+
+## Project Structure
+
+```
+src/
+ ├── components/
+ ├── context/
+ ├── firebase/
+ ├── pages/
+ ├── utils/
+ ├── App.jsx
+ └── main.jsx
+```
+
+## Live Demo
+
+Add Vercel deployment link here.
+
+## Author
+
+Niharika (IGDTUW )
