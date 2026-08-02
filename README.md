@@ -41,32 +41,6 @@ A full-stack web application for reporting, searching, and managing lost and fou
 - Cloud Firestore integration
 - Item claim management
 - Responsive interface
-- 
-## Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/IGDTUW-Lost-Found.git
-```
-
-Navigate to the project directory
-
-```bash
-cd IGDTUW-Lost-Found
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Run the development server
-
-```bash
-npm run dev
-```
 
 ## Firebase Setup
 
