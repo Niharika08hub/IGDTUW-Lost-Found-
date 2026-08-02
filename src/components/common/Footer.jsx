@@ -57,6 +57,7 @@ const Footer = () => {
       <div className="footer-bottom">
   <p>
     © 2026 IGDTUW Lost & Found.
+    
     <br />
     All rights reserved.
   </p>

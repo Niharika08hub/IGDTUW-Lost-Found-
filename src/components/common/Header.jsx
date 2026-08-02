@@ -44,6 +44,16 @@ const Header = () => {
     return location.pathname === path;
   };
 
+  const handleLogout = () => {
+  const confirmLogout = window.confirm(
+    "Are you sure you want to log out?"
+  );
+
+  if (confirmLogout) {
+    logout();
+  }
+};
+
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <div className="container">
@@ -94,10 +104,9 @@ const Header = () => {
     <span className="user-name">
       {user.displayName}
     </span>
-
-    <button onClick={logout} className="logout-btn">
-      Logout
-    </button>
+<button onClick={handleLogout} className="logout-btn">
+  Logout
+</button>
   </div>
 )}
           <button
